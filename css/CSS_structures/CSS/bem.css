@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  .card__title;
+}
+
+p {
+  font-family: var(--font-family);
+}
+
+.card {
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid green;
+  background-color: bisque;
+  border-radius: 30px;
+  color: var(--primary-color);
+}
+
+.card__title {
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.card-primary-color {
+  border-color: var(--primary-color);
+}
+.card-secondary-color {
+  border-color: green;
+  border: 4px dotted var(--secondary-color);
+}
